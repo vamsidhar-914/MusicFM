@@ -9,10 +9,10 @@ const title= document.querySelector('#title')
 const cover = document.querySelector('#cover')
 
 // song titles
-const songs = [ 'hey' , 'summer' ,'ukulele']
+const songs = [ 'we dont talk anymore' , 'dawnfm' ,'hey','I aint worried','sacrifice','summer']
 
 // keep track of songs
-let songIndex = 2;
+let songIndex = 3;
 
 // initial load song info DOM
 loadSong(songs[songIndex])
